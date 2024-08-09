@@ -33,7 +33,7 @@ const CubeScene = () => {
         containerElement.clientWidth,
         containerElement.clientHeight
       );
-      renderer.setClearColor(0xedf1fd, 1);
+      renderer.setClearColor(0xffffff, 0);
       containerElement.appendChild(renderer.domElement);
 
       // Lighting

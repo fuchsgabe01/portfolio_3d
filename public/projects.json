@@ -1,0 +1,30 @@
+[
+  {
+    "id": "project-1",
+    "title": "Automated Greenhouse",
+    "description": "An IoT project to automate and monitor greenhouse conditions remotely.",
+    "imageUrl": "square.png",
+    "category": "Tech"
+  },
+  {
+    "id": "project-2",
+    "title": "Robotic Arm Design",
+    "description": "Design and prototype of a 3D-printed robotic arm for educational purposes.",
+    "imageUrl": "https://via.placeholder.com/150",
+    "category": "Hardware"
+  },
+  {
+    "id": "project-3",
+    "title": "Virtual Reality Art Gallery",
+    "description": "A VR experience showcasing digital art in an interactive 3D environment.",
+    "imageUrl": "https://via.placeholder.com/150",
+    "category": "Creative"
+  },
+  {
+    "id": "project-4",
+    "title": "This is a test for what happens when there is a really long name",
+    "description": "A VR experience showcasing digital art in an interactive 3D environment.",
+    "imageUrl": "https://via.placeholder.com/150",
+    "category": "Creative"
+  }
+]
