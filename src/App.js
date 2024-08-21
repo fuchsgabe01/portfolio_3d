@@ -8,6 +8,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 
+import curves from "./assets/curved_lines.jpeg";
+
 const Website = styled.div`
   background-color: #ffffff;
   overflow-x: hidden;
@@ -101,6 +103,14 @@ const SocialIconsContainer = styled.div`
   margin-top: 20px; // Spacing from the text above
 `;
 
+const RescaledCruves = styled.img`
+  width: 100%; // Change this to your desired width
+  height: 150px; // This will maintain the aspect ratio
+  opacity: 25%;
+  margin-bottom: 120px;
+  margin-top: -50px;
+`;
+
 function App() {
   return (
     <Website>
@@ -153,6 +163,7 @@ function App() {
           </RightSection>
         </SectionContainer>
       </IntroSection>
+      <RescaledCruves src={curves} />
       <Projects />
     </Website>
   );
