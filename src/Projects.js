@@ -41,7 +41,7 @@ const Projects = () => {
 
   return (
     <ProjectsFullContainer>
-      <MyWorks>MY WORKS</MyWorks>
+      <MyWorks>M Y . W O R K S</MyWorks>
       <FilterBar
         categories={allCategories}
         activeCategory={activeCategory}

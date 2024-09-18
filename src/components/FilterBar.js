@@ -10,7 +10,7 @@ const FilterBarContainer = styled.div`
 
 const FilterButton = styled.button`
   padding: 10px 20px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   background: ${(props) => (props.active ? "#add8e6" : "white")};
   cursor: pointer;
   width: 120px;

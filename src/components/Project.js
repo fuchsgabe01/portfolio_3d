@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const ProjectBlock = styled(motion.div)`
   width: 35%; // Adjusted width to fit two per row
+  height: 175px;
   display: flex;
   flex-direction: row;
   margin: 10px;

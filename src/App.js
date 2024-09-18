@@ -122,22 +122,23 @@ function App() {
               I am <FirstName>Gabe</FirstName> Fuchs
             </StyledHeader2>
             <IntroText>
-              I'm a final-year <Highlight>Mechanical Engineering</Highlight>{" "}
-              undergrad diving into a{" "}
-              <Highlight>Master of Engineering in Computer Science</Highlight>,
-              aiming for completion in December 2024. My passion lies at the
-              crossroads of engineering and computing, particularly in the
-              dynamic world of <Highlight>robotics</Highlight>.
+              I'm a <Highlight>Master of Engineering</Highlight> student in{" "}
+              <Highlight>Computer Science</Highlight> with a
+              <Highlight> Bachelor of Science</Highlight> in{" "}
+              <Highlight>Mechanical Engineering</Highlight>. I discovered my
+              passion for <Highlight>Computer Science</Highlight> through my
+              hands-on work in robotics, where I saw the power of software in
+              solving robotics problems and beyond.
               <br />
-              <br />
-              Driven by a broad base of knowledge in technology and engineering,
-              I'm <Highlight>actively seeking a role</Highlight> where I can
-              contribute to pioneering solutions and collaborative ventures. If
-              you're on the lookout for someone{" "}
+              <br />I excel at tackling complex challenges and building
+              impactful, user-focused solutions. I'm{" "}
+              <Highlight>actively seeking opportunities</Highlight> to
+              contribute to innovative work. If you're looking for someone{" "}
               <Highlight>passionate</Highlight> about{" "}
-              <Highlight>driving innovation</Highlight> and ready to tackle
-              challenges in the tech world, I'm your candidate.
+              <Highlight>developing impactful, tech-driven solutions</Highlight>
+              , I'm ready to make a difference.
             </IntroText>
+
             <SocialIconsContainer>
               <IconLink
                 href="https://www.linkedin.com/in/gabriel-fuchs"

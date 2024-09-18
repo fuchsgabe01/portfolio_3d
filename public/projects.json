@@ -1,30 +1,79 @@
 [
-  {
-    "id": "project-1",
-    "title": "Automated Greenhouse",
-    "description": "An IoT project to automate and monitor greenhouse conditions remotely.",
-    "imageUrl": "square.png",
-    "category": "Tech"
-  },
+  
   {
     "id": "project-2",
-    "title": "Robotic Arm Design",
-    "description": "Design and prototype of a 3D-printed robotic arm for educational purposes.",
-    "imageUrl": "https://via.placeholder.com/150",
-    "category": "Hardware"
+    "title": "Robotic City Control Portal",
+    "description": "Building an end-to-end system for virtual robotic city control, enhancing accessibility",
+    "detailedDescription": "I am currently developing a complete end-to-end system for the virtual control of the IDS Lab’s robotic city, designed to increase accessibility for users. The system will allow researchers and students to upload custom robot instructions to a local server, which will execute the commands on the robotic city.\nThe project involves creating a dynamic front-end that enables users to easily interact with the system, accommodating both university students and researchers with varying technical skills and restrictions. The interface will be intuitive, allowing users to upload experiments and monitor the results in real-time.\nI’m using a cloud based backend, that will send user-provided robot instructions to a Python script on the local lab machine that processes and converts them into formal ROS (Robot Operating System) commands. This ensures that the instructions are seamlessly integrated into the city’s control system, enabling the lab monitors to easily set up and run the experiments.\nThe system will also store experimental data and video recordings for further analysis, providing a comprehensive platform for research and experimentation with autonomous robotic systems.",
+    "imageUrl": "idslab.png",
+    "category": "Tech",
+    "pdfLink": "",
+    "showImage": true
+  },
+  {"id": "project-7",
+  "title": "Building a Ray Tracer from Scratch in Python",
+  "description": "Ray tracer with object separation, textures, refraction, and Constructive Solid Geometry.",
+  "detailedDescription": "In this project, I created a ray tracer from scratch in Python, focusing on realistic rendering techniques and importing 3D models from Blender. The ray tracer can handle object separation, smoothing normals for more accurate light reflections, and texture mapping using UV coordinates from Blender. \nI also implemented refraction based on Snell's law, adding realism to glass objects like spheres and cubes. \nAnother key feature was Constructive Solid Geometry (CSG), allowing complex shapes to be formed using unions, intersections, and differences of basic primitives. \nThe final scene I rendered includes objects like a hamburger, wine bottle, and glass marble, demonstrating the ray tracer's ability to handle refraction, mirroring, and texture mapping. The project concluded with a high-resolution render that took over two hours to compute.",
+  "imageUrl": "final_submission.png",
+  "category": "Tech",
+  "pdfLink": "RayTracing_Report.pdf",
+  "showImage": true
+}, 
+  {"id": "project-6",
+  "title": "Simulating Ant Behavior + Trail Optimization (Web-Based Graphics)",
+  "description": "Ant simulation visualizes trail optimization from home to food source",
+  "detailedDescription": "In this project, I explored ant behavior through a visual simulation. Ants start purple, leaving purple trails to represent their recent departure from the home. These trails fade after a certain length, representing the diminishing usefulness of the scent as it gets farther from home. When ants reach the green food source, they turn green to indicate they’ve collected food. They then leave green trails, allowing other ants to find the food. If an ant encounters a trail of the opposite color, it can follow it, mimicking how ants navigate back to the home or food source. Over time, the paths become optimized, forming a direct line between the home and food. While some simplifications were made for performance reasons, the overall behavior mirrors that of real ants.",
+  "imageUrl": "ants.png",
+  "category": "Tech",
+  "pdfLink": "",
+  "showImage": false
+},
+{"id": "project-8",
+"title": "Ping-Pong Ball Balance Platform",
+"description": "Real-time platform adjusts to balance ping-pong ball using feedback",
+"detailedDescription": "I built a platform that uses sensors and actuators to balance a ping-pong ball in real-time. The platform tilts in various directions based on feedback from the ball’s position, constantly adjusting to keep the ball centered. The system uses a PID controller to calculate the necessary corrections, ensuring smooth and responsive movements. The platform is connected to a microcontroller, which processes data from the sensors and adjusts the motors accordingly. This project explores real-time control systems, feedback loops, and sensor-based stabilization, all aimed at maintaining the balance of a lightweight object on a dynamic surface.",
+"imageUrl": "balancepad.jpg",
+"category": "Hardware",
+"pdfLink": "balancePadReport.pdf",
+"showImage": true
+},
+  {"id": "project-5",
+  "title": "Facial Analysis Web App",
+  "description": "Created a web app for emotion detection using a trained PyTorch model",
+  "detailedDescription": "I created a web app that when the user uploads and submits a picture of a face, they are returned with the emotion found in that face. They also can see the top three most likely emotions, from the results of the model in the form of a SoftMax. The model was trained on a 48-by-48-pixel dataset found on Kaggle using PyTorch. I played around with the model design and concluded that 3 convolutional layers into a linear layer seemed to maximize the validation set. I wanted to focus on the emotion detection model, so I abstracted the face detection for bounding boxes to a commonly used haar cascade model I have worked with in the past. The model I designed is small scale and the web app does not save any data aside from the last submitted image for viewing purposes (it is deleted on the next submission.)\nThe app was deployed using AWS LightSail containers so the web app can be a bit slow at times and doesn’t handle overload well. However, it works for demonstration purposes and a more accurate experience can be obtained from running the app locally acquired from my GitHub.\n[currently down to avoid payments]\nhttps://github.com/fuchsgabe01/ML_Facial_Anlysis_App",
+  "imageUrl": "pytorch.png",
+  "category": "Tech",
+  "pdfLink": "",
+  "showImage": false
+},
+{"id": "project-4",
+    "title": "Distributed System Implementation",
+    "description": "Designing distributed sharded KVStore with fault tolerance, and scalability.",
+    "detailedDescription": "I am currently designing a distributed, sharded key-value store (KVStore) in Java, focused on efficient data storage with fault tolerance. The system supports multi-key updates and dynamic load balancing to ensure scalability and strong consistency across all operations.\nSome steps taken far include implementing a basic level of fault tolerence and the handling of duplicate, delayed, and dropped messages.\nTo ensure fault tolerance, I implemented a primary/backup replication protocol. Additionally, the system guarantees exactly-once semantics, effectively handling the complexity of duplicated and delayed messages for reliable operation.",
+    "imageUrl": "dslabs.png",
+    "category": "Tech",
+    "pdfLink": "",
+    "showImage": false
+  },{
+    "id": "project-1",
+    "title": "3D Spaceship (Art)",
+    "description": "Mars spaceship design for contest entry",
+    "detailedDescription": "A render made within the program blender for entry in a community based competition (on blender artists.org). The project placed second with 36% of people giving it a vote for best entry. \n The primary model within the design is the spaceship inspired from the interstellar spacecraft from Passengers. The design was made entirely from scratch and free for use textures. \nThroughout this project, I focused on the use of light within the design to emphasize particular components of the spacecraft to create a more realistic portrayal overall.",
+    "imageUrl": "marsship4by3.png",
+    "category": "Creative",
+    "pdfLink": "",
+    "showImage": true
   },
   {
     "id": "project-3",
-    "title": "Virtual Reality Art Gallery",
-    "description": "A VR experience showcasing digital art in an interactive 3D environment.",
-    "imageUrl": "https://via.placeholder.com/150",
-    "category": "Creative"
-  },
-  {
-    "id": "project-4",
-    "title": "This is a test for what happens when there is a really long name",
-    "description": "A VR experience showcasing digital art in an interactive 3D environment.",
-    "imageUrl": "https://via.placeholder.com/150",
-    "category": "Creative"
+    "title": "3D Mars Landscape (Art)",
+    "description": "Mars landscape design for contest entry",
+    "detailedDescription": "A render made within the program blender for entry in a community-based competition (on blender artists.org).\nThis was the first finished product I made within blender. It includes the mars layout, spaceship, astronaut, and mars base models. All models were made completely from scratch, and used some free-for-use texturing on top of pure textures made within blender.\nThe fog was added through dispersion to mimic the effect of dark night. This was paired with stars seen faintly.\nThe mars landscape was created through a combination of 3D sculpting tools in order to obtain a rough mars-like ground.",
+    "imageUrl": "mars-output-4x3.png",
+    "category": "Creative",
+    "pdfLink": "",
+    "showImage": true
   }
 ]
+
+
